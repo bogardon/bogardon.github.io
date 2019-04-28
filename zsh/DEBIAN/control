@@ -1,0 +1,11 @@
+Package: com.bogardon.zsh
+Name: Z shell
+Version: 5.3
+Architecture: iphoneos-arm
+Description: A shell with interactive features.
+Homepage: http://bogardon.github.io/
+Depiction: http://bogardon.github.io/
+Maintainer: John Wu <bogardon@gmail.com>
+Author: Paul Falstad
+Sponsor: Mom
+Section: Terminal_Support
