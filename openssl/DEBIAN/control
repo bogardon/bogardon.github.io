@@ -1,0 +1,11 @@
+Package: com.bogardon.openssl
+Name: Z shell
+Version: 1.0.2r
+Architecture: iphoneos-arm
+Description: TLS/SSL and crypto library.
+Homepage: http://bogardon.github.io/
+Depiction: http://bogardon.github.io/
+Maintainer: John Wu <bogardon@gmail.com>
+Author: The OpenSSL Project
+Sponsor: Mom
+Section: Networking
