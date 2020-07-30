@@ -2,11 +2,18 @@
 <html>
 <body>
   <h1>Password autofill test</h1>
-  <form name="np" id="np1" action="https://example.com/" method="post">
-    Username: <input type="text" name="username" id="password_name"><br>
-    Password: <input type="password" name="password" id="password_field"><br>
+  <form id="signin" action="https://example.com/" method="post">
+    Username: <input type="text" id="signin-username"><br>
+    Password: <input type="password" id="signin-password"><br>
     <input type="reset" value="Reset">
-    <input type="submit" value="Submit" id="password_submit">
+    <input type="submit" value="Submit" id="sigin-submit">
+  </form>
+  <form id="signup" action="https://example.com/" method="post">
+    Username: <input type="text" id="signup-username"><br>
+    Password: <input type="password" id="signup-password"><br>
+    Confirm: <input type="password" id="signup-password-confirm"><br>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit" id="sigup-submit">
   </form>
 </body>
 </html>
